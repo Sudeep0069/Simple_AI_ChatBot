@@ -177,12 +177,6 @@ Prompts are sent to Google's Gemini service. Because the form uses `GET`, prompt
 
 For public deployment, disable debug mode, use a production WSGI server, and add appropriate request validation, error handling, and usage controls. Changing prompt submission to `POST` would keep prompts out of query strings. These improvements are not implemented in the current version.
 
-## Screenshots
-
-<!-- Add screenshots to docs/screenshots/ and uncomment the image lines below. -->
-<!-- ![Chatbot home page](docs/screenshots/home.png) -->
-<!-- ![Generated AI response](docs/screenshots/response.png) -->
-
 ## Planned Improvements
 
 - [ ] Add conversation history and multi-turn context.
@@ -195,10 +189,4 @@ For public deployment, disable debug mode, use a production WSGI server, and add
 
 ## Contributing
 
-Suggestions and improvements are welcome. Open an issue describing the proposed change, or submit a focused pull request with a clear explanation and verification steps. Keep credentials out of commits and examples.
-
-## License and Attribution
-
-No license file was included with the supplied project. Add a `LICENSE` file with your chosen terms before presenting the repository as open source.
-
-The supplied HTML templates include Anudip Foundation attribution in the footer. Review and preserve applicable attribution when publishing the project. Google and Gemini names belong to their respective owners; their use here describes the integration.
+Suggestions and improvements are welcome. Open an issue describing the proposed change, or submit a focused pull request with a clear explanation and verification steps. 
